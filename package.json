@@ -1,0 +1,20 @@
+{
+  "name": "web-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/app.jsx --bundle --outfile=build/main.js",
+    "dev": "npm run build --servedir=build",
+    "watch": "npm run build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "0.17.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
